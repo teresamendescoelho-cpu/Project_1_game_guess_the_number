@@ -4,8 +4,14 @@
 
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
 *.so
+
+# Python build / distribution files
+build/
+dist/
+*.egg-info/
+.eggs/
 
 # =========================
 # Jupyter Notebook
@@ -14,37 +20,37 @@ __pycache__/
 .ipynb_checkpoints/
 
 # =========================
-# Virtual environments
+# Virtual Environments
+# =========================
+
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment / Secret Files
 # =========================
 
 .env
-.envrc
-.venv/
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+.env.local
+*.secret
 
 # =========================
-# Testing / coverage
+# Testing / Coverage
 # =========================
 
 .pytest_cache/
 .coverage
 .coverage.*
 htmlcov/
-.tox/
-.nox/
-.hypothesis/
 
 # =========================
-# Python tools
+# Python Tool Caches
 # =========================
 
 .mypy_cache/
-.pyre/
-.pytype/
+.pytest_cache/
 .ruff_cache/
 
 # =========================
@@ -53,19 +59,19 @@ htmlcov/
 
 .vscode/
 .idea/
-.spyproject
-.spyderproject
+.spyproject/
+.spyderproject/
 
 # =========================
-# Temporary files
+# Temporary Files
 # =========================
 
-tempCodeRunnerFile.py
 *.tmp
 *.temp
+tempCodeRunnerFile.py
 
 # =========================
-# Operating system files
+# Operating System Files
 # =========================
 
 .DS_Store
