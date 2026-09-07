@@ -68,15 +68,15 @@ After each completed game, the player can choose whether to play again.
 
 ## 🕹️ How to Play
 
-1.  Start the game.
-2.  Choose a difficulty level.
-3.  The computer generates a random secret number within the selected
-    range.
-4.  Enter your guess.
-5.  Receive feedback about your guess.
-6.  Check the number of remaining attempts.
-7.  Continue guessing until you win or run out of attempts.
-8.  Choose whether to play again.
+1. Start the game.
+2. Choose a difficulty level.
+3. The computer generates a random secret number within the selected
+   range.
+4. Enter your guess.
+5. Receive feedback about your guess.
+6. Check the number of remaining attempts.
+7. Continue guessing until you win or run out of attempts.
+8. Choose whether to play again.
 
 ------------------------------------------------------------------------
 
@@ -142,9 +142,7 @@ A list stores the guesses made by the player.
 
 Example:
 
-``` python
-guesses = [50, 25, 42]
-```
+    guesses = [50, 25, 42]
 
 ### Dictionary
 
@@ -153,16 +151,14 @@ results.
 
 Example:
 
-``` python
-game_state = {
-    "secret_number": 42,
-    "difficulty": "Classic",
-    "attempts_used": 3,
-    "remaining_attempts": 7,
-    "guesses": [50, 25, 42],
-    "won": True
-}
-```
+    game_state = {
+        "secret_number": 42,
+        "difficulty": "Classic",
+        "attempts_used": 3,
+        "remaining_attempts": 7,
+        "guesses": [50, 25, 42],
+        "won": True
+    }
 
 ------------------------------------------------------------------------
 
@@ -237,25 +233,23 @@ information, attempt tracking, and previous guesses.
 
 ## 📁 Repository Structure
 
-``` text
-Project_1_game_guess_the_number/
-│
-├── README.md
-├── .gitignore
-├── number_guessing_game.ipynb
-│
-└── presentation/
-    └── project-1-presentation.pptx
-```
+    Project_1_game_guess_the_number/
+    │
+    ├── README.md
+    ├── .gitignore
+    ├── number_guessing_game.ipynb
+    │
+    └── presentation/
+        └── project-1-presentation.pptx
 
 ### File Description
 
-| File / Folder                 | Purpose                                                       |
-|-------------------------------|---------------------------------------------------------------|
-| `README.md`                   | Project documentation and instructions                        |
-| `.gitignore`                  | Specifies files and folders that should not be tracked by Git |
-| `number_guessing_game.ipynb`  | Main Jupyter Notebook containing the game                     |
-| `presentation/`               | Project presentation                                          |
+| File / Folder                | Purpose                                                       |
+|------------------------------|---------------------------------------------------------------|
+| `README.md`                  | Project documentation and instructions                        |
+| `.gitignore`                | Specifies files and folders that should not be tracked by Git |
+| `number_guessing_game.ipynb` | Main Jupyter Notebook containing the game                    |
+| `presentation/`              | Project presentation                                          |
 | `project-1-presentation.pptx` | Final project presentation                                    |
 
 ------------------------------------------------------------------------
@@ -351,6 +345,6 @@ Through this project, I practiced:
 
 **Teresa Mendes Coelho**
 
-Data Analytics \| Python \| SQL \| Data Visualization
+Data Analytics | Python | SQL | Data Visualization
 
 GitHub: https://github.com/teresamendescoelho-cpu
